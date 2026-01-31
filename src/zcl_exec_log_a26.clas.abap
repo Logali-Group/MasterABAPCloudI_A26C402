@@ -53,6 +53,24 @@ DATA ls_employee TYPE lty_employee.
 
     out->write( lv_date ).
 
+"var
+DATA lv_var TYPE c LENGTH 20.
+
+"constantes
+CONSTANTS: lc_const TYPE c LENGTH 6 VALUE 'Logali'.
+
+"declaraciones en línea
+DATA(lv_result) = 4 + 7.
+
+
+
+
+
+
+
+
+
+
   ENDMETHOD.
 
 ENDCLASS.
