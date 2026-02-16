@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_data_conv_a25 IMPLEMENTATION.
+CLASS ZCL_DATA_CONV_A25 IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
 *    DATA: lv_string  TYPE string VALUE `12345`, " ''
@@ -104,5 +106,4 @@ CLASS zcl_data_conv_a25 IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

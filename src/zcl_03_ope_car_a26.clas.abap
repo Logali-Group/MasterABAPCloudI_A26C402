@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_03_ope_car_a26 IMPLEMENTATION.
+CLASS ZCL_03_OPE_CAR_A26 IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -250,5 +251,4 @@ CLASS zcl_03_ope_car_a26 IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

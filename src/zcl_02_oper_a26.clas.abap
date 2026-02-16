@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_02_oper_a26 IMPLEMENTATION.
+CLASS ZCL_02_OPER_A26 IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
 "CTRL + ><
@@ -115,5 +117,4 @@ CLASS zcl_02_oper_a26 IMPLEMENTATION.
 
 
 ENDMETHOD.
-
 ENDCLASS.

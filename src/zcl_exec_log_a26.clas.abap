@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_exec_log_a26 IMPLEMENTATION.
+CLASS ZCL_EXEC_LOG_A26 IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -72,5 +73,4 @@ DATA(lv_result) = 4 + 7.
 
 
   ENDMETHOD.
-
 ENDCLASS.
